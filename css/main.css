@@ -6,7 +6,7 @@
   --anima-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header {
+.hero, .header {
   width: 1920px;
   margin-left: auto;
   margin-right: auto;
@@ -200,4 +200,71 @@ img {
 .contacs_icon {
   width: 24px;
   height: 24px;
+}
+
+.hero {
+  padding-top: 100px;
+  padding-bottom: 47px;
+  background-image: url("../images/hero/Group.svg"), url("../images/hero/hero-circle-big.svg"), url("../images/hero/Vector.svg"), url("../images/hero/hero-circle-small-2.svg"), url("../images/hero/hero-circle-small.svg");
+  background-repeat: no-repeat;
+  background-position: 93% 65%, 0% 3.86%, 100% 53%, 1094px 513px, 61.98% 3.86%;
+}
+
+.hero__text {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.hero__title {
+  margin-bottom: 20px;
+  font-size: 90px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.hero__button {
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 211px;
+  padding: 20px 82px;
+  border-radius: 5px;
+  background: var(--secondary-accent-color);
+  font-size: 20px;
+  font-weight: 700;
+  list-style: 1.25;
+}
+
+.hero__circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 17px;
+  margin-bottom: 7px;
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.circle-accent {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.hero__more {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.hero__arrow {
+  margin: 0 auto;
+  margin-top: 16px;
+  width: 18px;
+  height: 28px;
 }/*# sourceMappingURL=main.css.map */
