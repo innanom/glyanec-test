@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Proxima Nova', sans-serif;
+    background-color: var(--background-color);
+    color: var(--main-color);
+    font-style: normal;
+    font-weight: normal;
+    
+    &.no-scroll {
+        overflow: hidden;
+    }
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
