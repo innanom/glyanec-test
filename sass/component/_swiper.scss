@@ -1,0 +1,26 @@
+.swiper .swiper-slide {
+    width: auto;
+}
+
+.swiper .swiper-button-prev::after,
+.swiper .swiper-button-next::after {
+    display: none;
+}
+
+.swiper .swiper-button-prev {
+    position: absolute;
+    width: 56px;
+    height: 53px;
+
+}
+
+.swiper .swiper-button-next {
+    width: 56px;
+    height: 53px;
+}
+
+.swiper .my__wrapper {
+    width: 1920px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
